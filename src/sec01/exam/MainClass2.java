@@ -28,9 +28,10 @@ public class MainClass2 {
 		/////////////////////////////////////////////
 		System.out.println("--------------------------------------");
 		
-		MemberDto memberDto1 = new MemberDto("이은찬", 50, "서울 성동구", "01086384832", "chani74@gmail.com");
-		MemberDto memberDto2 = new MemberDto("이창주", 20, "서울 종로구", "01049504835", "nicejoo21@gmail.com");
-		MemberDto memberDto3 = new MemberDto("이형주", 18, "서울 강남구", "01064394832", "kindjoo21@gmail.com");
+		MemberDto memberDto1 = new MemberDto("이은찬", 50, "서울 성동구", "010***^^^^", "chan***@gmail.com");
+		MemberDto memberDto2 = new MemberDto("이창주", 20, "서울 종로구", "010***^^^^", "nice***1@gmail.com");
+		MemberDto memberDto3 = new MemberDto("이형주", 18, "서울 강남구", "010***^^^^", "kind***@gmail.com");
+		MemberDto memberDto4 = new MemberDto("이은찬", 50, "서울 성동구", "010***^^^^", "cha***@gmail.com");
 	
 		Set<MemberDto> memberDtos = new HashSet<MemberDto>();
 		
